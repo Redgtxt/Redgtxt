@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">I’m a Computer Science student at 42 Lisboa and an aspiring software engineer and project manager. <br>My passion lies in solving complex technical challenges, designing creative systems, <br>and building meaningful projects that blend code, art, and design.<br><br>Currently focused on advanced C and C++ projects within the 42 curriculum.<br><br>Beyond 42, I’m the founder of Hupi Games, an indie game label under which I’ve published <br>two console titles on PlayStation, Xbox, Switch, and Windows. <br>I’m now leading the design of a third pixel-art puzzle game, handling both <br>game design direction and project management with external artists.</p>
+<p align="left">I’m a Computer Science student at 42 Lisboa and an aspiring software engineer and project manager. <br>My passion lies in solving complex technical challenges, designing creative systems, <br>and building meaningful projects.<br><br>Currently focused on advanced C and C++ projects within the 42 curriculum.<br><br>Beyond 42, I’m the founder of Hupi Games, an indie game studio under which I’ve published <br>two console titles on PlayStation, Xbox, Switch, and Windows. <br>I’m now leading the production of a third pixel-art puzzle game, handling both <br>game design direction and project management with external artists.</p>
 
 ###
 
