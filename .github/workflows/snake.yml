@@ -8,20 +8,26 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # necessário para permitir o push no branch 'output'
+
 jobs:
   build:
     name: Generate GitHub Contribution Snake
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake.svg
+      - name: Generate Snake.svg (Dracula Dark Theme)
         uses: Platane/snk@v3
         with:
           github_user_name: Redgtxt
           outputs: dist/snake.svg
+          color_snake: "#FF79C6"        # Rosa do tema Dracula
+          color_dots: "#282A36,#44475A,#6272A4,#8BE9FD,#50FA7B"  # Paleta escura
+          color_bg: "transparent"       # Fundo transparente (melhor para modo escuro)
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
