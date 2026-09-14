@@ -9,7 +9,6 @@
 <p align="left">
 Computer Science student at <b>42 Lisboa</b>, where I've completed the common core — a peer-to-peer, project-only curriculum with no classes and no teachers. Most of my work there is low-level: memory management in C, concurrency, C++ from the ground up, and system administration with Docker.<br><br>
 Outside 42 I'm the founder of <b>Hupi Games</b>, an indie studio. Two of our titles were signed and released by a publisher on <b>PlayStation, Xbox, Nintendo Switch and the Microsoft Store</b>. I'm currently leading production on a third — a pixel-art puzzle game — handling game design direction and project management with external artists.<br><br>
-I like problems where the constraint <i>is</i> the lesson: no standard library, no ready-made images, C++98 with nothing modern to hide behind.
 </p>
 
 ###
