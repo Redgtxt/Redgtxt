@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋Hey there! I'm Hugo Pinto</h2>
+<h2 align="left">Hi 👋 I'm Hugo Pinto</h2>
 
 ###
 
@@ -6,32 +6,20 @@
 
 ###
 
-<p align="left">I’m a Computer Science student at 42 Lisboa and an aspiring software engineer and project manager. <br>My passion lies in solving complex technical challenges, designing creative systems, <br>and building meaningful projects.<br><br>Currently focused on advanced C and C++ projects within the 42 curriculum.<br><br>Beyond 42, I’m the founder of Hupi Games, an indie game studio under which I’ve published <br>two console titles on PlayStation, Xbox, Switch, and Windows. <br>I’m now leading the production of a third pixel-art puzzle game, handling both <br>game design direction and project management with external artists.</p>
+<p align="left">
+Computer Science student at <b>42 Lisboa</b>, where I've completed the common core — a peer-to-peer, project-only curriculum with no classes and no teachers. Most of my work there is low-level: memory management in C, concurrency, C++ from the ground up, and system administration with Docker.<br><br>
+Outside 42 I'm the founder of <b>Hupi Games</b>, an indie studio. Two of our titles were signed and released by a publisher on <b>PlayStation, Xbox, Nintendo Switch and the Microsoft Store</b>. I'm currently leading production on a third — a pixel-art puzzle game — handling game design direction and project management with external artists.<br><br>
+I like problems where the constraint <i>is</i> the lesson: no standard library, no ready-made images, C++98 with nothing modern to hide behind.
+</p>
+
+###
+
+<h3 align="left">Languages</h3>
 
 ###
 
 <div align="left">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Redgtxt.Redgtxt&"  />
-</div>
-
-###
-
-<h3 align="left">Skills</h3>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=c" height="30" alt="c logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cpp" height="30" alt="cplusplus logo"  />
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,js,ts,html,css,bash" alt="C, C++, Python, JavaScript, TypeScript, HTML, CSS, Bash" />
 </div>
 
 ###
@@ -41,34 +29,39 @@
 ###
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="bash logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gamemakerstudio" height="30" alt="gamemakerstudio logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=linux" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="30" alt="github logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=git" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vim" height="30" alt="vim logo"  />
+  <img src="https://skillicons.dev/icons?i=docker,nginx,mysql,nestjs,firebase,godot,linux,git,github,vscode,vim" alt="Docker, Nginx, MariaDB, NestJS, Firebase, Godot, Linux, Git, GitHub, VS Code, Vim" />
 </div>
 
 ###
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Redgtxt&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Redgtxt&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
+<h3 align="left">42 Projects</h3>
 
 ###
 
-<br clear="both">
+The common core, in order. The linked repositories each carry a README explaining the design decisions behind them; the rest have no code to publish — a configured machine, a set of network topologies, a private team project.
 
-<img src="https://raw.githubusercontent.com/Redgtxt/Redgtxt/output/snake.svg" alt="Snake animation" />
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**Libft**](https://github.com/Redgtxt/Libft) | My own C standard library, rebuilt from scratch — string and memory functions, linked lists, plus `ft_printf` and `get_next_line` folded in | C |
+| [**ft_printf**](https://github.com/Redgtxt/ft_printf) | A reimplementation of `printf` — variadic arguments, format parsing and base conversion, built on nothing but `write` | C |
+| [**get_next_line**](https://github.com/Redgtxt/get_next_line) | Reading a file descriptor one line at a time, with a static buffer that survives between calls | C |
+| **Born2beRoot** | A server built from scratch inside a VM under strict rules — encrypted LVM partitions, a hardened SSH and firewall setup, a sudo policy that logs everything, and a monitoring script reporting on the machine at a fixed interval | Linux · sysadmin |
+| [**Philosophers**](https://github.com/Redgtxt/Philosophers) | Dijkstra's dining philosophers — one thread per philosopher, one mutex per fork, no deadlocks and no data races | C · pthreads |
+| **NetPractice** | Diagnosing and repairing broken TCP/IP networks — subnet masks, address ranges, routing tables and default gateways, one topology at a time | Networking |
+| **Webserv** | An HTTP/1.1 server with CGI support and virtual hosting, written from scratch | C++ |
+| [**CPP Modules 00–04**](https://github.com/Redgtxt/CPP00-04) | The jump from C to OOP — classes, references, operator overloading, inheritance, polymorphism | C++98 |
+| [**CPP Modules 05–09**](https://github.com/Redgtxt/CPP05-09) | Exceptions, the four casts, templates and the STL — ending with Ford–Johnson merge-insertion sort | C++98 |
+| [**Inception**](https://github.com/Redgtxt/Inception) | A three-container WordPress infrastructure — NGINX, PHP-FPM and MariaDB — with every image built from scratch on Debian | Docker · Compose |
+| **ft_transcendence** | A real-time multiplayer game platform — I owned the game logic and the WebSocket layer | NestJS · TypeScript |
+
+###
+
+<h3 align="left">What I'm working on</h3>
+
+###
+
+<p align="left">
+A pixel-art puzzle game at Hupi Games, and moving past the 42 common core into data science and machine learning.
+</p>
 
 ###
