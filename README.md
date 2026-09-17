@@ -47,9 +47,9 @@ The common core, in order. The linked repositories each carry a README explainin
 | **Born2beRoot** | A server built from scratch inside a VM under strict rules — encrypted LVM partitions, a hardened SSH and firewall setup, a sudo policy that logs everything, and a monitoring script reporting on the machine at a fixed interval | Linux · sysadmin |
 | [**Philosophers**](https://github.com/Redgtxt/Philosophers) | Dijkstra's dining philosophers — one thread per philosopher, one mutex per fork, no deadlocks and no data races | C · pthreads |
 | **NetPractice** | Diagnosing and repairing broken TCP/IP networks — subnet masks, address ranges, routing tables and default gateways, one topology at a time | Networking |
-| [**CPP Modules 00–04**](https://github.com/Redgtxt/CPP00-04) | The jump from C to OOP — classes, references, operator overloading, inheritance, polymorphism | C++98 |
+| [**CPP Modules 00–04**](https://github.com/Redgtxt/CPP00-04) | The jump from C to OOP — classes, references, operator overloading, inheritance, polymorphism | C++ |
 | **Webserv** | An HTTP/1.1 server with CGI support and virtual hosting, written from scratch | C++ |
-| [**CPP Modules 05–09**](https://github.com/Redgtxt/CPP05-09) | Exceptions, the four casts, templates and the STL — ending with Ford–Johnson merge-insertion sort | C++98 |
+| [**CPP Modules 05–09**](https://github.com/Redgtxt/CPP05-09) | Exceptions, the four casts, templates and the STL — ending with Ford–Johnson merge-insertion sort | C++ |
 | [**Inception**](https://github.com/Redgtxt/Inception) | A three-container WordPress infrastructure — NGINX, PHP-FPM and MariaDB — with every image built from scratch on Debian | Docker · Compose |
 | **ft_transcendence** | A real-time multiplayer game platform — I owned the game logic and the WebSocket layer | NestJS · TypeScript |
 
