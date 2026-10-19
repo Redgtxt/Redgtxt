@@ -28,7 +28,7 @@ Outside 42 I'm the founder of <b>Hupi Games</b>, an indie studio. Two of our tit
 ###
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=docker,nginx,mysql,nestjs,firebase,godot,linux,git,github,vscode,vim" alt="Docker, Nginx, MariaDB, NestJS, Firebase, Godot, Linux, Git, GitHub, VS Code, Vim" />
+  <img src="https://skillicons.dev/icons?i=docker,nginx,mysql,postgres,prisma,nestjs,jest,firebase,godot,linux,git,github,vscode,vim" alt="Docker, Nginx, MariaDB, PostgreSQL, Prisma, NestJS, Jest, Firebase, Godot, Linux, Git, GitHub, VS Code, Vim" />
 </div>
 
 ###
@@ -37,7 +37,7 @@ Outside 42 I'm the founder of <b>Hupi Games</b>, an indie studio. Two of our tit
 
 ###
 
-The common core, in order. The linked repositories each carry a README explaining the design decisions behind them; the rest have no code to publish — a configured machine, a set of network topologies, a private team project.
+The common core, in order. The linked repositories each carry a README explaining the design decisions behind them; the rest have no code to publish — a configured machine and a set of network topologies.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -48,10 +48,10 @@ The common core, in order. The linked repositories each carry a README explainin
 | [**Philosophers**](https://github.com/Redgtxt/Philosophers) | Dijkstra's dining philosophers — one thread per philosopher, one mutex per fork, no deadlocks and no data races | C · pthreads |
 | **NetPractice** | Diagnosing and repairing broken TCP/IP networks — subnet masks, address ranges, routing tables and default gateways, one topology at a time | Networking |
 | [**CPP Modules 00–04**](https://github.com/Redgtxt/CPP00-04) | The jump from C to OOP — classes, references, operator overloading, inheritance, polymorphism | C++ |
-| **Webserv** | An HTTP/1.1 server with CGI support and virtual hosting, written from scratch | C++ |
+| [**Webserv**](https://github.com/Redgtxt/webserv) | An HTTP/1.1 server with CGI and virtual hosting, written from scratch by a team of three. I built the network core — non-blocking sockets, a single `poll()` event loop across every port, client timeouts, and CGI scripts that run without blocking the loop | C++98 · sockets |
 | [**CPP Modules 05–09**](https://github.com/Redgtxt/CPP05-09) | Exceptions, the four casts, templates and the STL — ending with Ford–Johnson merge-insertion sort | C++ |
 | [**Inception**](https://github.com/Redgtxt/Inception) | A three-container WordPress infrastructure — NGINX, PHP-FPM and MariaDB — with every image built from scratch on Debian | Docker · Compose |
-| **ft_transcendence** | A real-time multiplayer game platform — I owned the game logic and the WebSocket layer | NestJS · TypeScript |
+| [**ft_transcendence**](https://github.com/Redgtxt/ft_transcendence) | A full-stack multiplayer Connect Four platform, built by a team of four, where I was also product owner. On the backend I built JWT authentication (httpOnly cookies, rate-limited login, protected routes) and account management, the REST API for match history and player statistics, the match data model in PostgreSQL through Prisma, and a minimax AI opponent with alpha-beta pruning | NestJS · TypeScript · PostgreSQL · Prisma |
 
 ###
 
