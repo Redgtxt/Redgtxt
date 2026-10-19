@@ -27,7 +27,7 @@ Outside 42 I founded **Hupi Games**, an indie studio. Our two puzzle games, [**O
 <img src="https://skillicons.dev/icons?i=jest,git,github,notion,vscode,vim" alt="Jest, Git, GitHub, Notion, VS Code, Vim" />
 
 **Game development**<br>
-<img src="https://skillicons.dev/icons?i=godot" alt="Godot" />
+<img src="https://skillicons.dev/icons?i=godot,gamemakerstudio" alt="Godot, GameMaker" />
 
 ## 42 Projects
 
