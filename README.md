@@ -37,7 +37,7 @@ Outside 42 I'm the founder of <b>Hupi Games</b>, an indie studio. Two of our tit
 
 ###
 
-The common core, in order. The linked repositories each carry a README explaining the design decisions behind them; the rest have no code to publish — a configured machine and a set of network topologies.
+The common core, in order. Most of the linked repositories carry a README explaining the design decisions behind them; the unlinked ones have no code to publish — a configured machine and a set of network topologies.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -45,8 +45,12 @@ The common core, in order. The linked repositories each carry a README explainin
 | [**ft_printf**](https://github.com/Redgtxt/ft_printf) | A reimplementation of `printf` — variadic arguments, format parsing and base conversion, built on nothing but `write` | C |
 | [**get_next_line**](https://github.com/Redgtxt/get_next_line) | Reading a file descriptor one line at a time, with a static buffer that survives between calls | C |
 | **Born2beRoot** | A server built from scratch inside a VM under strict rules — encrypted LVM partitions, a hardened SSH and firewall setup, a sudo policy that logs everything, and a monitoring script reporting on the machine at a fixed interval | Linux · sysadmin |
+| [**so_long**](https://github.com/Redgtxt/So_long) | A small top-down 2D game in MiniLibX — the map file is validated on load (rectangular, closed by walls, one player and one exit) and a flood fill proves every collectible and the exit can be reached | C · MiniLibX |
+| [**Pipex**](https://github.com/Redgtxt/Pipex) | Reproducing the shell's `< infile cmd1 \| cmd2 > outfile` with `pipe`, `fork`, `dup2` and `execve`, resolving each command through `PATH` — extended to any number of commands and a `here_doc` | C · Unix processes |
+| [**Minishell**](https://github.com/ruigoncalves96/Minishell) | A subset of bash, written in a pair — tokenizing, quote handling and `$VAR` expansion, pipelines, redirections and heredocs, builtins and signals, with every file descriptor closed so pipelines neither hang nor leak | C · readline |
 | [**Philosophers**](https://github.com/Redgtxt/Philosophers) | Dijkstra's dining philosophers — one thread per philosopher, one mutex per fork, no deadlocks and no data races | C · pthreads |
 | **NetPractice** | Diagnosing and repairing broken TCP/IP networks — subnet masks, address ranges, routing tables and default gateways, one topology at a time | Networking |
+| [**miniRT**](https://github.com/Redgtxt/MiniRT) | A ray tracer written from scratch in a pair — ray intersection with spheres, planes, cylinders and cones, Phong shading, coloured lights, reflection, refraction and antialiasing, plus a live control panel for editing the scene | C · MiniLibX |
 | [**CPP Modules 00–04**](https://github.com/Redgtxt/CPP00-04) | The jump from C to OOP — classes, references, operator overloading, inheritance, polymorphism | C++ |
 | [**Webserv**](https://github.com/Redgtxt/webserv) | An HTTP/1.1 server with CGI and virtual hosting, written from scratch by a team of three. I built the network core — non-blocking sockets, a single `poll()` event loop across every port, client timeouts, and CGI scripts that run without blocking the loop | C++98 · sockets |
 | [**CPP Modules 05–09**](https://github.com/Redgtxt/CPP05-09) | Exceptions, the four casts, templates and the STL — ending with Ford–Johnson merge-insertion sort | C++ |
