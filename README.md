@@ -6,7 +6,7 @@ Software engineering student at **42 Lisboa** and founder of **Hupi Games**, bas
 
 At 42 Lisboa I've completed the common core — a peer-to-peer, project-based curriculum with no classes and no teachers, where every project is reviewed by other students before it counts. It took me from memory management and concurrency in C, through C++ and an HTTP server written from scratch, to Docker infrastructure and a full-stack web platform built by a team of four, where I was also product owner.
 
-Outside 42 I founded **Hupi Games**, an indie studio. Our two puzzle games, [**Out of Moves**](https://www.xbox.com/games/store/out-of-moves/9P7BXDRNXX3H) and [**Out of Moves: Another Try**](https://www.xbox.com/games/store/out-of-moves-another-try/9P5GSPKDSZLN), were signed by the publisher Afil Games and released in 2025 on **PlayStation, Xbox, Nintendo Switch and the Microsoft Store**. I'm now leading production on a third — a pixel-art puzzle game — directing the game design and managing the project with external artists.
+Outside 42 I founded **Hupi Games**, an indie studio. Our two puzzle games, [**Out of Moves**](https://www.xbox.com/games/store/out-of-moves/9P7BXDRNXX3H) and [**Out of Moves: Another Try**](https://www.xbox.com/games/store/out-of-moves-another-try/9P5GSPKDSZLN), were signed by the publisher Afil Games and released in 2025 on **PlayStation, Xbox, Nintendo Switch and the Microsoft Store**. I'm now leading production on the third, **Out of Moves: A New Way** — a pixel-art puzzle game — directing the game design and managing the project with external artists.
 
 ## Languages
 
@@ -61,6 +61,6 @@ The common core, in order. The linked repositories each carry a README explainin
 
 ## What I'm working on
 
-- **Hupi Games** — production of our third title, a pixel-art puzzle game.
+- **Hupi Games** — production of our third title, **Out of Moves: A New Way**, a pixel-art puzzle game.
 - **Mini-CRM API** *(work in progress)* — the backend of a small CRM, with companies, contacts, deals and activities, in TypeScript with Express and PostgreSQL. The SQL is written by hand instead of through an ORM, every endpoint gets its test before its code with Jest and Supertest, and it runs on Docker Compose with CI on GitHub Actions.
 - **Data science at 42** — the Python for Data Science piscine, and a linear regression trained with gradient descent that I'm writing from scratch.
