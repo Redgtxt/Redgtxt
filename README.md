@@ -37,7 +37,7 @@ Outside 42 I'm the founder of <b>Hupi Games</b>, an indie studio. Two of our tit
 
 ###
 
-The common core, in order. Most of the linked repositories carry a README explaining the design decisions behind them; the unlinked ones have no code to publish — a configured machine and a set of network topologies.
+The common core, in order. The linked repositories each carry a README explaining the design decisions behind them; the unlinked ones have no code to publish — a configured machine and a set of network topologies.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -47,6 +47,7 @@ The common core, in order. Most of the linked repositories carry a README explai
 | **Born2beRoot** | A server built from scratch inside a VM under strict rules — encrypted LVM partitions, a hardened SSH and firewall setup, a sudo policy that logs everything, and a monitoring script reporting on the machine at a fixed interval | Linux · sysadmin |
 | [**so_long**](https://github.com/Redgtxt/So_long) | A small top-down 2D game in MiniLibX — the map file is validated on load (rectangular, closed by walls, one player and one exit) and a flood fill proves every collectible and the exit can be reached | C · MiniLibX |
 | [**Pipex**](https://github.com/Redgtxt/Pipex) | Reproducing the shell's `< infile cmd1 \| cmd2 > outfile` with `pipe`, `fork`, `dup2` and `execve`, resolving each command through `PATH` — extended to any number of commands and a `here_doc` | C · Unix processes |
+| [**push_swap**](https://github.com/Redgtxt/push_swap) | Sorting integers with two stacks and eleven instructions, in as few instructions as possible — a greedy algorithm that computes the exact rotation cost of every candidate before each push, averaging 586 instructions for 100 numbers | C · algorithms |
 | [**Minishell**](https://github.com/ruigoncalves96/Minishell) | A subset of bash, written in a pair — tokenizing, quote handling and `$VAR` expansion, pipelines, redirections and heredocs, builtins and signals, with every file descriptor closed so pipelines neither hang nor leak | C · readline |
 | [**Philosophers**](https://github.com/Redgtxt/Philosophers) | Dijkstra's dining philosophers — one thread per philosopher, one mutex per fork, no deadlocks and no data races | C · pthreads |
 | **NetPractice** | Diagnosing and repairing broken TCP/IP networks — subnet masks, address ranges, routing tables and default gateways, one topology at a time | Networking |
